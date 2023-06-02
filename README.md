@@ -29,23 +29,23 @@ Extract this ZIP file in `cd C:/xampp/htdocs` directory
 
 1. First, open xampp and click "Start" under the "Apache" and "MySQL".
 
-2. Create empty database and import the `webapp_databse.sql`
+2. Create empty database and import the `webapp_database.sql`
 
     *Using phpmyadmin*
 
     - Go to your browser and copy paste this url `http://localhost/phpmyadmin`.
-    - After that create a new database at the right navigation panel click "New", input the database name `webapp_databse` and click "Create".
-    - Click the "Import" window at the top, click the "Choose file", navigate the backup file in the local project that has this name `webapp_databse.sql` in folder of database and click "Import".
+    - After that create a new database at the right navigation panel click "New", input the database name `webapp_database` and click "Create".
+    - Click the "Import" window at the top, click the "Choose file", navigate the backup file in the local project that has this name `webapp_database.sql` in folder of database and click "Import".
 
     *Using workbench*
     - Open the Mysql Workbench connect to your MySQL server.
     - In the Navigator panel, right-click on the MySQL server instance and select "Create Schema..." from the context menu.	
     - Enter the name of your schema then click the apply button
     - Click on "Server" in the top menu and select "Data Import".
-    - In the "Data Import" window, select "Import from Self-Contained File" and select the backup file that has `webapp_databse.sql` in the database folder at the root directory of the project.
+    - In the "Data Import" window, select "Import from Self-Contained File" and select the backup file that has `webapp_database.sql` in the database folder at the root directory of the project.
     -Now click the "Start Import".
 
-3. After importing the `webapp_databse.sql` file, you need to update the database credentials in the config.php file to match your own database setup. The config.php file is located in the pages folder then config folder of this repository.
+3. After importing the `webapp_database.sql` file, you need to update the database credentials in the config.php file to match your own database setup. The config.php file is located in the pages folder then config folder of this repository.
 4. Open the config.php file and locate the following lines of code:
 
 > config.php
