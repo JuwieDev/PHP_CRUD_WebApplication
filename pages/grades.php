@@ -242,7 +242,7 @@
       <div class="row">
         <div class="col-lg-8">
           
-              <div class="card mt-4">
+              <div class="card mt-4" style="width: 750px">
                 <div class="card-header pb-0 p-3"
                   style="background-image: url('../assets/img/bg.png');background-size: cover">
                   <div class="row">
